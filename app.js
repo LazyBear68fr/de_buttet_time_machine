@@ -57,8 +57,8 @@ function openLightbox(video) {
     container.innerHTML = `
         <iframe 
             src="${video.stream}" 
-            width="800" 
-            height="450" 
+            width="690" 
+            height="562" 
             allow="autoplay" 
             allowfullscreen
             frameborder="0">
@@ -68,4 +68,15 @@ function openLightbox(video) {
     // Lien téléchargement
     document.getElementById('downloadBtn').href = video.download;
 };
+document.addEventListener('DOMContentLoaded', () => {
+    const closeBtn = document.getElementById('closeBtn');
+    const lightbox = document.getElementById('lightbox');
+    const container = document.getElementById('videoPlayerContainer');
+
+    closeBtn.addEventListener('click', () => {
+        lightbox.classList.add('hidden');
+        container.innerHTML = '';
+    });
+});
+
 
