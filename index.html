@@ -8,9 +8,16 @@
 </head>
 <body>
 <header>
-<h1>Archives Familiales</h1>
-<input id="search" type="text" placeholder="Rechercher (titre, année, personne)…">
+  <h1>Archives Familiales</h1>
+  <input id="search" type="text" placeholder="Rechercher (titre, année, personne)…">
+
+  <!-- Avertissement sur la qualité de prévisualisation -->
+  <p id="warning" class="warning">
+    En cliquant sur une vidéo, vous pourrez voir une prévisualisation avec une qualité très médiocre.
+    Pour voir la vidéo en qualité originale, nettement plus regardable, il vous faudra télécharger le fichier.
+  </p>
 </header>
+
 
 
 <main>
@@ -23,7 +30,7 @@
 <span id="closeBtn" class="close">&times;</span>
 <h2 id="videoTitle"></h2>
 <div id="videoPlayerContainer"></div>
-<a id="downloadBtn" class="download" href="#" target="_blank">Télécharger l’original</a>
+<a id="downloadBtn" class="download" href="#" target="_blank">Télécharger l’original haute qualité</a>
 </div>
 </div>
 
@@ -32,3 +39,4 @@
 </body>
 
 </html>
+
