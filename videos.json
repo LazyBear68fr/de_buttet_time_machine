@@ -1,0 +1,18 @@
+[
+{
+"title": "Noël en famille",
+"year": 1998,
+"people": ["Papa", "Maman", "Louise"],
+"thumbnail": "thumbs/noel.jpg",
+"stream": "https://drive.google.com/uc?id=XXXXX&export=preview",
+"download": "https://drive.google.com/uc?id=XXXXX&export=download"
+},
+{
+"title": "Anniversaire de Marc",
+"year": 2003,
+"people": ["Marc", "Julie"],
+"thumbnail": "thumbs/anniv.jpg",
+"stream": "https://drive.google.com/uc?id=YYYYY&export=preview",
+"download": "https://drive.google.com/uc?id=YYYYY&export=download"
+}
+]
