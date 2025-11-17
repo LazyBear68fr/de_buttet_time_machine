@@ -1,18 +1,31 @@
 [
-  {
-    "title": "Printemps 82 - Cueillette du muguet - Gillonnay",
-    "year": 1982,
-    "people": ["Raoul", "Agnès", "Marielle"],
-    "thumb": "thumbs/1-.PNG",
-    "src": "https://drive.google.com/uc?export=download&id=1JQeIlD5tvxs5FroEXfcblStCRkAQp006",
-    "download": "https://drive.google.com/uc?export=download&id=1JQeIlD5tvxs5FroEXfcblStCRkAQp006"
-  },
-  {
-    "title": "Printemps 82 - Anniversaire de Jérôme et David - Montgontier",
-    "year": 1982,
-    "people": ["Raoul", "Agnès", "Cécile", "Bonne-Maman", "Clément", "Jérôme", "David", "Stéphane"],
-    "thumb": "thumbs/2-.PNG",
-    "src": "https://drive.google.com/uc?export=download&id=11X2wztVwJ5iGrBIOLkthAvmThchY9jtx",
-    "download": "https://drive.google.com/uc?export=download&id=11X2wztVwJ5iGrBIOLkthAvmThchY9jtx"
-  }
+    {
+        "title": "Printemps 82 - Cueillette du muguet - Gillonnay",
+        "year": 1982,
+        "people": [
+            "Raoul",
+            "Agnès",
+            "Marielle"
+        ],
+        "thumb": "thumbs/1-.png",
+        "src": "https://drive.google.com/uc?export=download&id=1JQeIlD5tvxs5FroEXfcblStCRkAQp006",
+        "download": "https://drive.google.com/uc?export=download&id=1JQeIlD5tvxs5FroEXfcblStCRkAQp006"
+    },
+    {
+        "title": "Printemps 82 - Anniversaire de Jérôme et David - Montgontier",
+        "year": 1982,
+        "people": [
+            "Raoul",
+            "Agnès",
+            "Cécile",
+            "Bonne-Maman",
+            "Clément",
+            "Jérôme",
+            "David",
+            "Stéphane"
+        ],
+        "thumb": "thumbs/2-.png",
+        "src": "https://drive.google.com/uc?export=download&id=11X2wztVwJ5iGrBIOLkthAvmThchY9jtx",
+        "download": "https://drive.google.com/uc?export=download&id=11X2wztVwJ5iGrBIOLkthAvmThchY9jtx"
+    }
 ]
