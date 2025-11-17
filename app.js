@@ -46,15 +46,26 @@ render(videos);
 
 // LIGHTBOX
 function openLightbox(video) {
-document.getElementById('lightbox').classList.remove('hidden');
-document.getElementById('videoTitle').innerText = video.title;
-document.getElementById('videoPlayer').src = video.stream;
-document.getElementById('downloadBtn').href = video.download;
-}
+    const lightbox = document.getElementById('lightbox');
+    lightbox.classList.remove('hidden');
 
+    // Titre
+    document.getElementById('videoTitle').innerText = video.title;
 
-document.getElementById('closeBtn').onclick = () => {
-document.getElementById('lightbox').classList.add('hidden');
-document.getElementById('videoPlayer').pause();
+    // Conteneur vidéo : iframe Google Drive
+    const container = document.getElementById('videoPlayerContainer');
+    container.innerHTML = `
+        <iframe 
+            src="${video.stream}" 
+            width="800" 
+            height="450" 
+            allow="autoplay" 
+            allowfullscreen
+            frameborder="0">
+        </iframe>
+    `;
 
+    // Lien téléchargement
+    document.getElementById('downloadBtn').href = video.download;
 };
+
