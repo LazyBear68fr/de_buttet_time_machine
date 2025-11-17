@@ -17,7 +17,7 @@ items.forEach(video => {
 const card = document.createElement('div');
 card.className = 'card';
 card.innerHTML = `
-<img src="${video.thumbnail}" alt="vignette">
+<img src="${video.thumb}" alt="vignette">
 <div class="info">
 <strong>${video.title}</strong><br>
 <small>${video.year}</small>
@@ -56,4 +56,5 @@ document.getElementById('downloadBtn').href = video.download;
 document.getElementById('closeBtn').onclick = () => {
 document.getElementById('lightbox').classList.add('hidden');
 document.getElementById('videoPlayer').pause();
+
 };
