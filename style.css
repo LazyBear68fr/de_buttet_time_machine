@@ -1,105 +1,98 @@
+/* Police globale moderne */
 body {
-border-radius: 4px;
-border: none;
+  font-family: "Inter", sans-serif;
+  background: #f7f7f7;
+  margin: 0;
+  padding: 0;
+  color: #222;
 }
 
-
-.gallery {
-display: grid;
-grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-gap: 20px;
-padding: 20px;
+/* Conteneur principal */
+header {
+  text-align: center;
+  padding: 40px 20px 20px;
 }
 
+/* Titre modernisé */
+header h1 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin: 0 0 20px;
+  color: #111;
+  letter-spacing: -0.5px;
+}
+
+/* Barre de recherche redesignée */
+#search {
+  width: 100%;
+  max-width: 400px;
+  padding: 12px 16px;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  background: white;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  transition: all 0.2s ease;
+}
+
+#search:focus {
+  border-color: #007aff;
+  box-shadow: 0 2px 8px rgba(0,122,255,0.2);
+  outline: none;
+}
+
+/* Texte d’avertissement légèrement stylé */
 .warning {
-  font-size: 0.9em;
-  color: #aa0000; /* rouge foncé pour attirer l’attention */
-  margin-top: 5px;
-  max-width: 800px;
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #8a0000;
+  background: #fff0f0;
+  padding: 10px 14px;
+  border-radius: 8px;
+  display: inline-block;
+  max-width: 600px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
 }
 
-.card {
-background: white;
-border-radius: 8px;
-box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-cursor: pointer;
-overflow: hidden;
+/* Grille des thumbnails */
+#videos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
 }
 
-
-.card img {
-width: 100%;
-height: 160px;
-object-fit: cover;
+/* Vignettes modernisées */
+.thumbnail {
+  cursor: pointer;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 
-
-.card .info {
-padding: 10px;
+.thumbnail:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.12);
 }
 
-
-.lightbox {
-position: fixed;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-background: rgba(0,0,0,0.8);
-display: flex;
-justify-content: center;
-align-items: center;
-}
-
-
-.lightbox.hidden {
-display: none;
-}
-
-
+/* Lightbox */
 .lightbox-content {
-background: white;
-padding: 20px;
-border-radius: 8px;
-width: 90%;
-max-width: 800px;
+  border-radius: 16px;
+  padding: 20px;
 }
 
-
-.close {
-float: right;
-cursor: pointer;
-font-size: 24px;
+/* Bouton de fermeture modernisé */
+.close-btn {
+  font-size: 26px;
+  color: #444;
+  cursor: pointer;
+  transition: transform 0.2s ease;
 }
 
-
-.download {
-display: inline-block;
-margin-top: 15px;
-padding: 10px 15px;
-background: #0077cc;
-color: white;
-border-radius: 6px;
-text-decoration: none;
-
+.close-btn:hover {
+  transform: scale(1.2);
 }
-/* Conteneur responsive pour la vidéo 4:3 */
-#videoPlayerContainer {
-  position: relative;
-  width: 100%;
-  max-width: 690px;  /* largeur maximale de la vidéo */
-  margin: 0 auto;    /* centrer horizontalement */
-  padding-bottom: 75%; /* ratio 4:3 */
-  height: 0;
-}
-
-#videoPlayerContainer iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: 0;
-}
-
-
