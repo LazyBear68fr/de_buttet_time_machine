@@ -403,7 +403,7 @@
         "people": [
             "Stéphane",
             "Raoul",
-            "Bonne-Maman",
+            "Bonne-Maman"
         ],
         "thumb": "thumbs/25-.PNG",
         "stream": "https://drive.google.com/file/d/1DwnT5n2mHbQhKkfEnJAHhi8Fd6H-Oigu/preview",
@@ -445,7 +445,7 @@
             "Evance",
             "Odile",
             "Thérèse",
-            "Georges",
+            "Georges"
         ],
         "thumb": "thumbs/27-.PNG",
         "stream": "https://drive.google.com/file/d/1TnjCfjAjTNS4BwJhBHfNVxX98tbENDk_/preview",
@@ -467,7 +467,7 @@
             "David",
             "Julien",
             "Simon",
-            "Marc",
+            "Marc"
         ],
         "thumb": "thumbs/28-.PNG",
         "stream": "https://drive.google.com/file/d/1TgdHTbeMHuOBZ0d2vXhFSnUX3mFDznKt/preview",
@@ -529,4 +529,5 @@
         "download": "https://drive.google.com/uc?export=download&id=1hbquvOSbmby5q9zYDmg7Kt3WnkigJvo5"
     }
 ]
+
 
